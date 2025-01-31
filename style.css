@@ -4,3 +4,11 @@ margin: 0; padding: 0;
 body {
 width: 940px; margin: 0 auto;
 font: 1
+header,section,article,aside,footer{ display: block;
+}
+aside{
+float: left; width: 470px;
+min-height: 480px;
+background: url(logo.png) center top no-repeat;
+margin: 0 0 20px 0;
+}
